@@ -13,7 +13,7 @@ module.exports = {
         library: "[name]"
     },
 
-    watch: false,
+    watch: true,
     watchOptions: {
         aggregateTimeout: 100
     },
@@ -43,7 +43,8 @@ module.exports = {
                 query: {
                     presets: [
                         "react",
-                        ["es2015", { modules: false }],
+                        "es2015",
+                        "stage-2"
                     ],
                 },
             }

@@ -1,8 +1,6 @@
-/*import { combineReducers } from 'redux'
-import todos from './todos'
-import visibilityFilter from './visibilityFilter'
-*/
-const reducers = combineReducers({
-})
+import { combineReducers } from 'redux'
+import gamesReducer from './games'
 
-export default reducers
+export default combineReducers({
+  gamesReducer
+})
